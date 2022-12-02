@@ -1,0 +1,20 @@
+.active{
+    background-color: red;
+    padding:5px 10px; border-radius: 15px;
+}
+.false{
+    background-color: yellow;
+}
+.header{
+    position: sticky;
+    top:0px;
+    z-index: 22;
+}
+@media only screen and (max-width:768px) {
+    .header{
+        position: sticky;
+        top:0px;
+        z-index: 22;
+        background-color: rgb(34, 25, 201);
+    }
+}
